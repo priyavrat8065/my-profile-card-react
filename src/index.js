@@ -7,9 +7,9 @@ function CardDesc() {
     <main className="card-desc">
       <h1>Priyavrat Chaudhary</h1>
       <p>
-        I am a full-stack web developer and a teacher at udemy. When not coding
-        or preparing a course, I like to play board games, to cook(and eat), or
-        to enjoy just Portuguese sun at the beach.
+        I am a full-stack web developer from india. When not coding or learning
+        a course, I like to play board games, to cook(and eat), or to enjoy to
+        take a walk in the nature.
       </p>
       <Skills />
     </main>
