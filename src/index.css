@@ -1,13 +1,66 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier Prime", monospace;
+  color: #5e4426;
+}
+.card {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 2px solid black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card img {
+  width: 100%;
+  height: 400px;
+  background-color: #a67843;
+}
+.card-desc {
+  padding: 0 24px;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.card-desc p {
+  color: #5e4426;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: #3d2c18;
+
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+}
+.skills div {
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.skill--1 {
+  background-color: rgba(0, 0, 255, 0.571);
+}
+.skill--2 {
+  background-color: orange;
+}
+.skill--3 {
+  background-color: pink;
+}
+.skill--4 {
+  background-color: yellowgreen;
+}
+.skill--5 {
+  background-color: orangered;
+}
+.skill--6 {
+  background-color: cyan;
 }
